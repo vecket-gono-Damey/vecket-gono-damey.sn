@@ -1,0 +1,370 @@
+.redressed{
+    font-family: cursive;
+}
+.merriweather{
+    font-family: serif;
+}
+
+
+.cc-navbar{
+    background-color: rgba(0,0, 0, 0.55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(225, 225, 225, 0.54);
+    z-index: 99;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner,
+.order-form {
+     background: url('1.jpg') center center fixed  
+    no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+.order-form{
+    height: 500px;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+.cc-menu{
+    background:url('7.jpg') center center fixed 
+    no-repeat; 
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color: var(--bs-teal);  
+}
+
+
+
+
+
+
+.propos {
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+section{
+    padding: 100px;
+
+
+
+}
+.containerrow.col50 h2{
+    margin-bottom: 20px;
+}
+.titre-texte{
+    color: #000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.titre-texte span{
+    color: var(--bs-teal);
+    font-size: 1,5em;
+    font-weight: 700px;
+}
+
+
+
+.titre{
+   display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    margin-top: -100px;
+   
+}
+.menu .contenu{
+   display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 40px;
+   transition: 0.2s;
+}
+.menu .contenu .box:hover{
+    background-color:var(--bs-teal);
+    transform: translateX(20deg);
+}
+
+.menu .contenu .box{
+    width: 350px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgb(0,0, 0,0.8);
+}
+
+.menu .contenu .box .inbox{
+    position: relative;
+   width: 100%;
+    height: 300px;
+    
+}
+
+.menu .contenu .box .inbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+
+.menu .contenu .box .text h3{
+    font-weight: 400;
+}
+
+.expert{
+    margin-top: -100px;
+}
+.expert .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.expert .contenu .box{
+    width: 250px;
+    margin: 15px;
+}
+
+.expert .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.expert .contenu .box h3{
+    color: #111;
+    font-weight: 400;
+    text-align: center;
+}
+
+.temoignage{
+    background: url(resto/bc1.JPG);
+    background-size: cover;
+}
+.temoignage .contenu{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.temoignage .contenu .box{
+    width: 340px;
+    margin: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 40px;
+}
+.temoignage .contenu .box .inbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.temoignage .contenu .box .inbox img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.temoignage .contenu .box .text{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+.temoignage .contenu .box .text h3{
+    color: #fb911f;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.blanc .titre-texte{
+    color: #fff;
+}
+.blanc .titre-texte,
+.blanc p{
+    color: rgb(8, 0, 0);
+}
+
+.contact{
+    background-image: url(resto/cont1.JPG);
+    background-size: 100%;
+    box-shadow: 2px 20px 12px rgba(0, 0, 0, 8);
+    width: 100%;
+    background-position: unset;
+}
+.contactform{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
+
+@media (max-width:991px) {
+   
+
+
+
+    }
+
+    .containerrow .col50 img{
+        margin-left: -18%;
+        width: 550px;
+        
+    }
+
+    .contenu p:nth-child(2){
+        font-size: 1.2em;
+
+    }
+
+    .expert{
+        margin-top: 0px;
+    }
+    /*.menu{
+        margin-top: 0px;
+    }*/
+
+    .containerrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .temoignage h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .temoignage p{
+        text-align: center;
+    }
+
+    .containerrow.col50{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerrow{
+        flex-direction: column;
+    }
+
+@media (max-width:480px) {
+    .banniere .contenu h2{
+        font-size: 2.2em;
+        color: #fff;
+    }
+    .titre-text{
+        color: #000;
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+    .temoignage h2{
+        font-size: 1.1em;
+    }
+    .temoignage p{
+        text-align: center;
+    }
+    .containerrow .col50 img{
+        margin-left: -14%;
+        width: 330px;
+        
+    }
+}
+
+@media (max-width:414px){
+    .menu .contenu{
+        font-size: 5.2rem;
+        width: 160%;
+    }
+
+    .expert .contenu{
+        width: 160%;
+        font-size: 9.2rem;
+        
+    }
+
+    .temoignage .contenu{
+        width: 0 160%;
+        height: auto;
+        font-size: 2.5rem;
+    }
+    .temoignage{
+        background: none;
+        background-color: hwb(0 96% 2%);
+       
+    }
+    .temoignage .contenu .box{
+        border: 2px solid black;
+    }
+
+    .blanc .titre-texte{
+        font-size: .1rem;
+    }
+
+    
+    .blanc .titre-texte,
+.blanc p{
+    color: rgb(8, 0, 0);
+    font-size: 1.2rem;
+}
+
+}
